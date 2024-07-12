@@ -1,0 +1,100 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Jul  3 11:11:49 2024
+
+@author: munja
+"""
+
+ *{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+            background-image: url("863234.jpg"); 
+            border-image-width: auto;
+            background-size:cover;
+            background-repeat: no-repeat;
+} 
+.header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px  5% 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 100;
+    background-color:rgba(162, 160, 160, 0.107);
+    backdrop-filter:blur(5px);
+}
+.flood{
+    font-family: "Playwrite DE Grund";
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.logo{
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgb(0, 149, 255);
+        border-radius: 20px;
+        border-color: rgb(0, 149, 255);
+        color:white;
+        padding-top: 5.5px;
+        padding-bottom: 5.5px;
+        padding-right:9px;
+        padding-left: 8px;  
+        margin-left: 5px;
+        margin-right: 5px; 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        border-style: solid;
+        cursor: pointer;
+        transition: box-shadow 0.2s;
+}
+.active{
+background-color: rgb(69, 61, 61);
+color: black;
+}
+.navbar a:hover{
+    box-shadow: 4px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.navbar a:active{
+    box-shadow: 3px 3px 4px rgb(255, 255, 255);
+}
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    color: aliceblue;
+}
+.content{
+    background-color: rgb(35, 30, 39);
+    padding: 10px;
+}
+.content h1{
+    font-size: 25px;
+    font-family: "Libre Baskerville";
+    font-weight: 700;
+    color: aquamarine;
+}
+.table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form > div{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
